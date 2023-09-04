@@ -1,0 +1,7 @@
+version: '3'
+services:
+  tests:
+    build: .
+    image: restful-booker-restful-booker
+    container_name: api_tests
+    command: sh -c "python -m pytest -v api.py"
