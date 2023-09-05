@@ -4,4 +4,4 @@ services:
     build: .
     container_name: api_tests
     network_mode: host
-    command: python -m pytest -v api.py
+    command: python -m pytest -v tests/api.py
