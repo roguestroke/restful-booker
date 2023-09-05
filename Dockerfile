@@ -1,9 +1,7 @@
 FROM python
 
-WORKDIR /restful-booker-api-tests
+WORKDIR /restful-booker-tests
 
 COPY . .
 
-RUN pip install --no-cache-dir -r requirements.txt
-
-CMD python api.py
+RUN pip install -r requirements.txt
