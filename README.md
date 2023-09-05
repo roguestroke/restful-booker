@@ -1,11 +1,11 @@
-# restful-booker-api-tests
+## restful-booker-api-tests
 A simple Pytest/Request tests for testing RESTful web services restful-booker.
 
-# Requirements
+## Requirements
 - Docker at least 24.0.5
 - Git
 
-# Start app
+## Start app
 1. Clone the repo with the app
 
         git clone https://github.com/mwinteringham/restful-booker    
@@ -13,7 +13,7 @@ A simple Pytest/Request tests for testing RESTful web services restful-booker.
 2. Navigate into the restful-booker root folder
 3. Run ```docker-compose up --build``` to start the app on http://localhost:3001
 
-# Run tests
+## Run tests
 1. Clone the repo with tests
 
         git clone https://github.com/roguestroke/characters 
@@ -21,5 +21,5 @@ A simple Pytest/Request tests for testing RESTful web services restful-booker.
 2. Navigate into the restful-booker root folder
 3. Run ```docker-compose up --build```
 
-# App API
+## App API
 App API details can be found on the [publically deployed version of Restful-Booker](https://restful-booker.herokuapp.com/).
