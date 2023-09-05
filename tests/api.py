@@ -1,6 +1,9 @@
 import requests
+from environment import ENV_OBJECT
 
-base_url = "http://localhost:3001"
+
+base_url = ENV_OBJECT.get_base_url()
+print(base_url)
 
 payload = {
         "firstname": "Jim",
